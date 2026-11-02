@@ -82,10 +82,10 @@
 
         layer_4 {
             bindings = <
-&kp INTERNATIONAL_3  &kp N7  &kp N8  &kp N9  &kp N0             &kp EXCLAMATION      &trans  &trans  &trans  &kp PLUS
-&kp SLASH            &kp N4  &kp N5  &kp N6  &kp LS(SEMICOLON)  &kp INTERNATIONAL_1  &trans  &trans  &trans  &trans
-&kp SQT              &kp N1  &kt N2  &kp N3  &kp PERCENT        &kp EQUAL            &trans  &trans  &trans  &trans
-&trans               &trans  &trans  &trans  &trans             &trans               &trans  &trans  &trans  &kp PRINTSCREEN
+&kp INTERNATIONAL_3  &kp N7  &kp N8  &kp N9  &kp N0             &kp INT_RO   &trans  &trans  &trans  &kp PLUS
+&kp LS(SQT)          &kp N4  &kp N5  &kp N6  &kp LS(SEMICOLON)  &kp PERCENT  &trans  &trans  &trans  &trans
+&kp SQT              &kp N1  &kt N2  &kp N3  &kp LS(MINUS)      &kp EQUAL    &trans  &trans  &trans  &trans
+&trans               &trans  &trans  &trans  &trans             &trans       &trans  &trans  &trans  &kp PRINTSCREEN
             >;
         };
     };
