@@ -31,6 +31,11 @@
             key-positions = <10 11>;
             bindings = <&kp TAB>;
         };
+
+        toggle0and2 {
+            bindings = <&tog 0>;
+            key-positions = <5 9>;
+        };
     };
 
     keymap {
@@ -38,10 +43,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp L         &kp U         &kp COMMA    &kp DOT              &kp F     &kp W        &kp R      &kp Y      &kp P
-&kp E             &kp I         &kp A         &kp O        &kp MINUS            &kp K     &kp T        &kp N      &kp S      &kp H
-&kp Z             &kp X         &kp C         &kp V        &kp INTERNATIONAL_1  &kp G     &kp D        &kp M      &kp J      &kp B
-&kp INT_MUHENKAN  &kp LEFT_ALT  &kp LEFT_GUI  &lt 4 SPACE  &kp LCTRL            &kp BSPC  &lt 1 ENTER  &kp RSHFT  &kp RSHFT  &mt LALT SLASH
+&kp Q             &kp L         &kp U         &kp COMMA    &kp DOT                  &kp F     &kp W        &kp R      &kp Y      &kp P
+&kp E             &kp I         &kp A         &kp O        &kp MINUS                &kp K     &kp T        &kp N      &kp S      &kp H
+&kp Z             &kp X         &kp C         &kp V        &kp LS(INTERNATIONAL_1)  &kp G     &kp D        &kp M      &kp J      &kp B
+&kp INT_MUHENKAN  &kp LEFT_ALT  &kp LEFT_GUI  &lt 4 SPACE  &kp LCTRL                &kp BSPC  &lt 1 ENTER  &kp RSHFT  &kp RSHFT  &mt LALT SLASH
             >;
         };
 
@@ -58,10 +63,10 @@
         layer2 {
             label = "FUNCTION";
             bindings = <
-&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &kp A           &trans   &kp F1  &kp F2   &kp F3      &kp F4
-&bt BT_SEL 1  &trans        &trans        &trans        &bt BT_CLR      &trans   &kp F5  &kp F6   &kp F7      &kp F8
-&bt BT_SEL 2  &trans        &trans        &trans        &bt BT_CLR_ALL  &trans   &kp F9  &kp F10  &kp F11     &kp F12
-&bt BT_SEL 3  &bt BT_SEL 4  &trans        &trans        &trans          &kp DEL  &trans  &trans   &bt BT_CLR  &bt BT_CLR_ALL
+&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &kp A           &trans   &kp F1  &kp F2        &kp F3      &kp F4
+&bt BT_SEL 1  &trans        &trans        &trans        &bt BT_CLR      &trans   &kp F5  &kp F6        &kp F7      &kp F8
+&bt BT_SEL 2  &trans        &trans        &trans        &bt BT_CLR_ALL  &trans   &kp F9  &kp F10       &kp F11     &kp F12
+&bt BT_SEL 3  &bt BT_SEL 4  &trans        &trans        &trans          &kp DEL  &trans  &kp LEFT_ALT  &bt BT_CLR  &bt BT_CLR_ALL
             >;
         };
 
