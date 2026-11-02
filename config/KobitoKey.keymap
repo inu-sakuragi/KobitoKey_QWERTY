@@ -63,10 +63,10 @@
         layer2 {
             label = "FUNCTION";
             bindings = <
-&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &kp A           &trans   &kp F1  &kp F2        &kp F3      &kp F4
-&bt BT_SEL 1  &trans        &trans        &trans        &bt BT_CLR      &trans   &kp F5  &kp F6        &kp F7      &kp F8
-&bt BT_SEL 2  &trans        &trans        &trans        &bt BT_CLR_ALL  &trans   &kp F9  &kp F10       &kp F11     &kp F12
-&bt BT_SEL 3  &bt BT_SEL 4  &trans        &trans        &trans          &kp DEL  &trans  &kp LEFT_ALT  &bt BT_CLR  &bt BT_CLR_ALL
+&bt BT_SEL 0  &kp KP_NUMBER_7  &kp KP_N8  &kp KP_NUMBER_9  &kp A           &trans   &kp F1  &kp F2        &kp F3      &kp F4
+&bt BT_SEL 1  &kp KP_N4        &kp KP_N5  &kp KP_N6        &bt BT_CLR      &trans   &kp F5  &kp F6        &kp F7      &kp F8
+&bt BT_SEL 2  &kp KP_NUMBER_1  &kp KP_N2  &kp KP_N3        &bt BT_CLR_ALL  &trans   &kp F9  &kp F10       &kp F11     &kp F12
+&bt BT_SEL 3  &bt BT_SEL 4     &trans     &trans           &trans          &kp DEL  &trans  &kp LEFT_ALT  &bt BT_CLR  &bt BT_CLR_ALL
             >;
         };
 
@@ -83,8 +83,8 @@
         layer_4 {
             bindings = <
 &kp PERCENT  &kp N7  &kp N8  &kp N9  &kp N0             &kp LS(INT_YEN)  &kp LS(N7)  &kp LS(LBKT)  &kp LS(N2)  &kp LS(EQUAL)
-&kp LS(SQT)  &kp N4  &kp N5  &kp N6  &kp LS(SEMICOLON)  &kp INT_YEN      &kp LBKT    &trans        &trans      &kp EQUAL
-&kp SLASH    &kp N1  &kt N2  &kp N3  &kp LS(MINUS)      &kp EQUAL        &kp LBKT    &trans        &trans      &kp DOLLAR
+&kp LS(SQT)  &kp N4  &kp N5  &kp N6  &kp LS(SEMICOLON)  &kp INT_YEN      &kp LBKT    &kp LS(N6)    &kp HASH    &kp EQUAL
+&kp SLASH    &kp N1  &kt N2  &kp N3  &kp LS(MINUS)      &kp EQUAL        &trans      &trans        &trans      &kp DOLLAR
 &trans       &trans  &trans  &trans  &trans             &trans           &trans      &trans        &trans      &kp PRINTSCREEN
             >;
         };
