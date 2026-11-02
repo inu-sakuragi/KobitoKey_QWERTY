@@ -32,7 +32,7 @@
             bindings = <&kp TAB>;
         };
 
-        toggle0and2 {
+        toggle_0and2 {
             bindings = <&tog 2>;
             key-positions = <5 9>;
         };
