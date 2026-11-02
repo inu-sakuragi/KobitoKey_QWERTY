@@ -53,10 +53,10 @@
         layer1 {
             label = "NUMBER";
             bindings = <
-&kp RIGHT_BRACE  &kp NON_US_HASH  &kp LESS_THAN  &kp GREATER_THAN  &kp SEMI  &kp EXCLAMATION  &kp HOME  &kp UP    &kp END    &kp DEL
-&kp LS(RBKT)     &kp LS(BSLH)     &kp LS(N8)     &kp LS(N9)        &kp SQT   &kp QUESTION     &kp LEFT  &kp DOWN  &kp RIGHT  &trans
-&trans           &trans           &trans         &trans            &trans    &trans           &trans    &trans    &trans     &trans
-&trans           &trans           &trans         &trans            &trans    &trans           &trans    &trans    &trans     &trans
+&kp RBKT      &kp NON_US_HASH  &kp LESS_THAN  &kp GREATER_THAN  &kp SEMI  &kp EXCLAMATION  &kp HOME  &kp UP    &kp END    &kp DEL
+&kp LS(RBKT)  &kp LS(BSLH)     &kp LS(N8)     &kp LS(N9)        &kp SQT   &kp QUESTION     &kp LEFT  &kp DOWN  &kp RIGHT  &trans
+&trans        &trans           &trans         &trans            &trans    &trans           &trans    &trans    &trans     &trans
+&trans        &trans           &trans         &trans            &trans    &trans           &trans    &trans    &trans     &trans
             >;
         };
 
