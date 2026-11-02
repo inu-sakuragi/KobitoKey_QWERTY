@@ -53,10 +53,10 @@
         layer1 {
             label = "NUMBER";
             bindings = <
-&kp RIGHT_BRACE  &kp NON_US_HASH  &kp LESS_THAN         &kp GREATER_THAN       &kp EXCLAMATION  &kp EXCLAMATION  &kp HOME  &kp UP    &kp END    &trans
-&kp RIGHT_BRACE  &kp NON_US_HASH  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp QUESTION     &kp QUESTION     &kp LEFT  &kp DOWN  &kp RIGHT  &trans
-&trans           &trans           &trans                &trans                 &trans           &trans           &trans    &trans    &trans     &trans
-&trans           &trans           &trans                &trans                 &trans           &trans           &trans    &trans    &trans     &trans
+&kp RIGHT_BRACE  &kp NON_US_HASH  &kp LESS_THAN  &kp GREATER_THAN  &kp SEMI  &kp EXCLAMATION  &kp HOME  &kp UP    &kp END    &trans
+&kp LS(RBKT)     &kp LS(BSLH)     &kp LS(N8)     &kp LS(N9)        &kp SQT   &kp QUESTION     &kp LEFT  &kp DOWN  &kp RIGHT  &trans
+&trans           &trans           &trans         &trans            &trans    &trans           &trans    &trans    &trans     &trans
+&trans           &trans           &trans         &trans            &trans    &trans           &trans    &trans    &trans     &trans
             >;
         };
 
@@ -82,10 +82,10 @@
 
         layer_4 {
             bindings = <
-&kp INTERNATIONAL_3  &kp N7  &kp N8  &kp N9  &kp N0             &kp INT_RO   &trans  &trans  &trans  &kp PLUS
-&kp LS(SQT)          &kp N4  &kp N5  &kp N6  &kp LS(SEMICOLON)  &kp PERCENT  &trans  &trans  &trans  &trans
-&kp SQT              &kp N1  &kt N2  &kp N3  &kp LS(MINUS)      &kp EQUAL    &trans  &trans  &trans  &trans
-&trans               &trans  &trans  &trans  &trans             &trans       &trans  &trans  &trans  &kp PRINTSCREEN
+&kp PERCENT  &kp N7  &kp N8  &kp N9  &kp N0             &kp INT_RO   &kp DOLLAR  &trans  &trans  &kp PLUS
+&kp LS(SQT)  &kp N4  &kp N5  &kp N6  &kp LS(SEMICOLON)  &kp INT_YEN  &kp LBKT    &trans  &trans  &trans
+&kp SLASH    &kp N1  &kt N2  &kp N3  &kp LS(MINUS)      &kp EQUAL    &trans      &trans  &trans  &trans
+&trans       &trans  &trans  &trans  &trans             &trans       &trans      &trans  &trans  &kp PRINTSCREEN
             >;
         };
     };
