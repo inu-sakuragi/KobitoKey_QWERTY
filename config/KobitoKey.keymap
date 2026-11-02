@@ -33,7 +33,7 @@
         };
 
         toggle0and2 {
-            bindings = <&tog 0>;
+            bindings = <&tog 2>;
             key-positions = <5 9>;
         };
     };
