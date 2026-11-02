@@ -38,30 +38,30 @@
 
         default_layer {
             bindings = <
-&kp Q      &kp L     &kp U     &kp COMMA    &kp DOT    &kp F     &kp W        &kp R      &kp Y      &kp P
-&kp E      &kp I     &kp A     &kp O        &kp MINUS  &kp K     &kp T        &kp N      &kp S      &kp H
-&kp Z      &kp X     &kp C     &kp V        &kp SEMI   &kp G     &kp D        &kp M      &kp J      &kp B
-&kp LSHFT  &kp LALT  &kp LCMD  &lt 4 SPACE  &kp LCTRL  &kp BSPC  &lt 1 ENTER  &kp RSHFT  &kp RSHFT  &mt LALT SLASH
+&kp Q      &kp L         &kp U         &kp COMMA    &kp DOT    &kp F     &kp W        &kp R      &kp Y      &kp P
+&kp E      &kp I         &kp A         &kp O        &kp MINUS  &kp K     &kp T        &kp N      &kp S      &kp H
+&kp Z      &kp X         &kp C         &kp V        &kp SEMI   &kp G     &kp D        &kp M      &kp J      &kp B
+&kp LSHFT  &kp LEFT_GUI  &kp LEFT_ALT  &lt 4 SPACE  &kp LCTRL  &kp BSPC  &lt 1 ENTER  &kp RSHFT  &kp RSHFT  &mt LALT SLASH
             >;
         };
 
         layer1 {
             label = "NUMBER";
             bindings = <
-&kp N0     &kp N1  &kp N2  &kp N3     &trans  &kp MINUS  &kp HOME   &kp UP    &trans     &trans
-&kp EQUAL  &kp N4  &kp N5  &kp N6     &trans  &kp PLUS   &kp LEFT   &kp DOWN  &kp RIGHT  &trans
-&trans     &kp N7  &kp N8  &kp N9     &trans  &kp ASTRK  &kp SLASH  &kp LBKT  &kp RBKT   &trans
-&trans     &trans  &trans  &kp LSHFT  &trans  &trans     &trans     &trans    &trans     &trans
+&kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LESS_THAN         &kp GREATER_THAN       &kp EXCLAMATION  &kp EXCLAMATION  &kp HOME   &kp UP    &kp END    &trans
+&kp LEFT_BRACE    &kp RIGHT_BRACE    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp QUESTION     &kp QUESTION     &kp LEFT   &kp DOWN  &kp RIGHT  &trans
+&trans            &kp N7             &kp N8                &kp N9                 &trans           &kp ASTRK        &kp SLASH  &kp LBKT  &kp RBKT   &trans
+&trans            &kp LEFT_GUI       &trans                &kp LSHFT              &trans           &trans           &trans     &trans    &trans     &trans
             >;
         };
 
         layer2 {
             label = "FUNCTION";
             bindings = <
-&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp F1   &kp F2   &kp F3  &kp F4  &kp F5
-&trans        &trans        &trans        &trans        &bt BT_CLR      &kp F6   &kp F7   &kp F8  &kp F9  &kp F10
-&trans        &trans        &trans        &trans        &bt BT_CLR_ALL  &kp F11  &kp F12  &trans  &trans  &trans
-&trans        &trans        &trans        &trans        &trans          &kp DEL  &trans   &trans  &trans  &trans
+&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &kp A           &trans   &kp F1  &kp F2   &kp F3      &kp F4
+&bt BT_SEL 1  &trans        &trans        &trans        &bt BT_CLR      &trans   &kp F5  &kp F6   &kp F7      &kp F8
+&bt BT_SEL 2  &trans        &trans        &trans        &bt BT_CLR_ALL  &trans   &kp F9  &kp F10  &kp F11     &kp F12
+&bt BT_SEL 3  &bt BT_SEL 4  &trans        &trans        &trans          &kp DEL  &trans  &trans   &bt BT_CLR  &bt BT_CLR_ALL
             >;
         };
 
@@ -77,10 +77,10 @@
 
         layer_4 {
             bindings = <
-&kp BACKSLASH     &kp N7  &kp N8  &kp N9  &kp N0       &trans  &trans  &trans  &trans  &trans
-&kp SLASH         &kp N4  &kp N5  &kp N6  &kp PLUS     &trans  &trans  &trans  &trans  &trans
-&kp RS(ASTERISK)  &kp N1  &kt N2  &kp N3  &kp PERCENT  &trans  &trans  &trans  &trans  &trans
-&trans            &trans  &trans  &trans  &trans       &trans  &trans  &trans  &trans  &trans
+&kp NON_US_BACKSLASH  &kp N7  &kp N8  &kp N9  &kp N0       &kp EXCLAMATION  &trans  &trans  &trans  &trans
+&kp SLASH             &kp N4  &kp N5  &kp N6  &kp PLUS     &trans           &trans  &trans  &trans  &trans
+&kp ASTERISK          &kp N1  &kt N2  &kp N3  &kp PERCENT  &trans           &trans  &trans  &trans  &trans
+&trans                &trans  &trans  &trans  &trans       &trans           &trans  &trans  &trans  &trans
             >;
         };
     };
