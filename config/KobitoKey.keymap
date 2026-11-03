@@ -53,10 +53,10 @@
         layer1 {
             label = "NUMBER";
             bindings = <
-&kp RBKT      &kp NON_US_HASH  &kp LESS_THAN  &kp GREATER_THAN  &kp SEMI  &kp EXCLAMATION  &kp HOME    &kp UP             &kp END          &kp DEL
-&kp LS(RBKT)  &kp LS(BSLH)     &kp LS(N8)     &kp LS(N9)        &kp SQT   &kp QUESTION     &kp LEFT    &kp DOWN           &kp RIGHT        &trans
-&trans        &trans           &trans         &trans            &trans    &trans           &kp C_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans
-&trans        &trans           &trans         &trans            &trans    &trans           &trans      &trans             &trans           &trans
+&kp RBKT      &kp NON_US_HASH  &kp LESS_THAN  &kp GREATER_THAN  &kp SEMI  &kp EXCLAMATION  &kp HOME    &kp UP            &kp END     &kp C_VOLUME_UP
+&kp LS(RBKT)  &kp LS(BSLH)     &kp LS(N8)     &kp LS(N9)        &kp SQT   &kp QUESTION     &kp LEFT    &kp DOWN          &kp RIGHT   &kp C_VOLUME_DOWN
+&kp DELETE    &trans           &trans         &trans            &trans    &kp C_PREV       &kp C_STOP  &kp C_PLAY_PAUSE  &kp C_NEXT  &kp C_MUTE
+&trans        &trans           &trans         &trans            &trans    &trans           &trans      &trans            &trans      &trans
             >;
         };
 
