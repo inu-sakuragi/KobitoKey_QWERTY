@@ -39,7 +39,6 @@
         };
     };
 
-    behaviors {
         behaviors {
             td_altgui: td_altgui {
                 compatible = "zmk,behavior-tap-dance";
@@ -56,7 +55,7 @@
 &kp Q                        &kp L         &kp U         &kp COMMA    &kp DOT                  &kp F     &kp W        &kp R      &kp Y                &kp P
 &kp E                        &kp I         &kp A         &kp O        &kp MINUS                &kp K     &kp T        &kp N      &kp S                &kp H
 &kp Z                        &kp X         &kp C         &kp V        &kp LS(INTERNATIONAL_1)  &kp G     &kp D        &kp M      &kp J                &kp B
-&mt LEFT_SHIFT INT_MUHENKAN  &td_altg  &kp LEFT_ALT  &lt 4 SPACE  &kp LCTRL                &kp BSPC  &lt 1 ENTER  &kp RSHFT  &kp INTERNATIONAL_5  &mt LALT SLASH
+&mt LEFT_SHIFT INT_MUHENKAN  &td_altg  &td_altgui  &lt 4 SPACE  &kp LCTRL                &kp BSPC  &lt 1 ENTER  &kp RSHFT  &kp INTERNATIONAL_5  &mt LALT SLASH
             >;
         };
 
